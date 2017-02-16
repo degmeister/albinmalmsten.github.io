@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mata in tal</title>
+</head>
+
+<body>
+		Välkommen till sidan där du matar in ett tal.
+    <br>
+    <p> Ditt tal är: <b id="skrivTal"> </b></p>
+    	<button onClick="skrivTal()">Skriv in ett tal</button>
+    </br>
+
+	<script type="text/javascript">
+	
+		function skrivTal()
+		{
+			var skrivTal=prompt("Skriv talet nedan","Mata in tal");
+			document.getElementById('skrivTal').innerHTML = skrivTal;
+			while(parseInt(skrivTal))
+			{
+				alert("Fel, du skrev inte in ett korrekt tal");
+				var skrivTal = prompt("Skriv in nytt tal");
+			}
+			
+		}
+	</script>
+    <br>
+    
+</body>
+</html>
