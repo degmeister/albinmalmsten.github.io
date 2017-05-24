@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<?php
+    error_reporting (E_ALL ^ E_NOTICE ^ E_DEPRECATED);
+?>
+   <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Kontakt</title>
+        <link rel="icon" href="sas_logo.png" type="image/png">
+        
+        <link href="sas_css.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, intial scale.1.0,maximum-slace=1">
+    </head>
+       <h1><a href="index.php">SAS</a></h1>
+    <body> 
+        <div id="#storbox">
+        <header>
+               
+        </header>
+        
+    <ul>
+            <li><a class="active" href="index.php">Hem</a></li>
+            <li><a href="kabin.php">Nya Kabinen</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
+            <li><a href="om.php">Om</a></li>
+    </ul>
+            
+            <nav>
+                
+                <h2>Sociala medier</h2>
+                
+                <div class="nav3">
+                    <a href="https://www.facebook.com/SAS/?fref=ts" class="icons" target="_blank">
+                        <img src="facebook.png" alt="facebook"></a> <br><p>GILLA SAS PÅ FACEBOOK</p>
+                    <a href="https://www.twitter.com/SAS" class="icons" target="_blank">
+                        <img src="twitter.png" alt="twitter"></a> <br><p>FÖLJ SAS PÅ TWITTER</p>
+                    <a href="https://www.instagram.com/flysas/" class="icons" target="_blank">
+                        <img src="instagram.jpeg" alt="instagram"></a><br><p>FÖLJ SAS PÅ INSTAGRAM</p>
+                </div>
+            </nav>
+            <article>                
+            </article>
+
+            <aside>
+                
+            </aside>
+
+            <footer>
+                   <br>Albin Malmsten 2017
+                
+            </footer>
+        </div>
+    </body>
+</html>
