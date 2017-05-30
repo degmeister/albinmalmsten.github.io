@@ -1,7 +1,3 @@
-<?php
-error_reporting (E_ALL ^ E_NOTICE ^ E_DEPRECATED); 
-?>
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -20,8 +16,7 @@ error_reporting (E_ALL ^ E_NOTICE ^ E_DEPRECATED);
             <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="om.html">Om</a></li>
         </ul>
-    
-    <body>
+
         <div id="#storbox">
             <header>
                 <h3>Nya kabinen</h3>
@@ -67,23 +62,6 @@ Recline (reclinable seat back): 15 cm/6"
 On-demand entertainment system with 23 cm/9” HD screens
 One power port per pair of seats plus individual USB ports
                 </p>
-
-                
-                
-                
-           
-                            <?php 
-           if ($_POST['submitbtn']) {
-                $from = ($_POST['from']);
-                $to = ($_POST['TO']);
-                $PASSENGER = ($_POST['PASSENGER']);
-                $toDate = ($_POST['toDate']);
-                $fromDate = ($_POST['fromDate']);
-                header('Location: index.php');
-            }
-
-        ?>
-                
             </nav>
             <article>
                 <p>Text tagen från https://www.flysas.com/en/travel-info/onboard/new-cabin/ 2017-05-23</p>

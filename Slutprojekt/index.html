@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<?php 
-    error_reporting (E_ALL ^ E_NOTICE ^ E_DEPRECATED); 
-?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -11,7 +8,7 @@
         <meta name="viewport" content="width=device-width, intial scale.1.0,maximum-slace=1">
     </head>
     <h1><a href="index.php">SAS</a></h1>
-    <body> 
+    
         <div id="#storbox"> 
         <header>
                
@@ -27,16 +24,6 @@
 
         </div>
 
-        ​<?php 
-            if ($_POST['submitbtn']) {
-                $from = ($_POST['FROM']);
-                $to = ($_POST['TO']);
-                $PASSENGER = ($_POST['PASSENGER']);
-                $toDate = ($_POST['toDate']);
-                $fromDate = ($_POST['fromDate']);
-            }
-
-        ?>
        <nav>
                 <form method="post" id="fyll">
                     
@@ -46,7 +33,7 @@
                     <option selected="selected">COPENHAGEN</option>
                     <option>STOCKHOLM</option>
                 </select>
-                <p><?php echo $from;?></p>
+                <p></p>
 
                  </div>
                  <div  style="float: left">
@@ -55,7 +42,7 @@
                     <option selected="selected">STOCKHOLM</option>
                     <option>COPENHAGEN</option>
                    
-                </select> <p><?php echo $to;?></p>
+                </select> <p></p>
 
                  </div>
             
@@ -65,16 +52,16 @@
                 <select name="PASSENGER">
                     <option selected="selected">ONE ADULT</option>
                     <option>TWO ADULTS</option>
-                </select><p><?php echo $PASSENGER;?></p>
+                </select>
 
                 </div>
            
                  <div  style="float: left">
                              
-            <input type="date" form="test.html" min="2017-05-25" name="toDate" max="2018-01-31">
-                     <p><?php echo $toDate;?></p>
-            <input type="date" form="test.html" min="2017-05-25" name="fromDate" max="2018-01-31">
-                     <p><?php echo $fromDate;?></p>
+            <input type="date" min="2017-05-25" name="toDate" max="2018-01-31">
+                     
+            <input type="date" min="2017-05-25" name="fromDate" max="2018-01-31">
+                     
             <p id="datum"></p>
                  </div>
             
