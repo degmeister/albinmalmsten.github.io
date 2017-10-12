@@ -1,0 +1,74 @@
+body {
+    background-color: #A7D7FF /*LJUSBLÅ*/
+}
+#storbox{
+    background-color: #06F; /*BLÅ*/
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+header{
+    background-color: #C39; /*LILA*/
+    width: 100%;
+    height: 10%;
+}
+
+footer{
+    background-color: #CF0; /*GUL*/
+    width: 100%;
+    height: 10%;
+}
+article{
+    background-color: #FFF; /*VIT*/
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+table{
+    width: 25%;
+    height: 10%;
+}
+/*aside{
+    background-color: #0F0; /*GRÖN*/
+   /* width: 100%;
+    height: 60%;
+    float: left;
+}*/
+
+ul{
+    list-style: none;
+    background-color: #444; /*GRÅ*/
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    line-height: 40px;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+form{
+    width: 50%;
+}
+table{
+    
+}
+td{
+    
+}
+
+h1{
+    text-align: center;
+}
+
+/*img{
+    width: 70%;
+    height: 50%;
+    opacity: 0.2;
+    filter: alpha(opacity=50);
+    
+}*/
