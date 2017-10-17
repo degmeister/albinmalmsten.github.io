@@ -1,5 +1,5 @@
 body {
-    background-color: #A7D7FF /*HIMMELSBLÅ*/
+    background-color: #A7D7FF; /*HIMMELSBLÅ*/
 }
 #storbox{
     /*background-color: #06F; /*BLÅ*/
@@ -54,6 +54,8 @@ li{
 }
 form{
     width: 50%;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 table{
     
@@ -73,6 +75,45 @@ h1{
     filter: alpha(opacity=50);
     
 }*/
+
+/*form{
+    width: 500px;
+    margin: 0 auto;
+    
+}*/
+
+label{
+    display: block;
+    margin: 5px 0 5px 20px;
+}
+
+input{
+    width: 250px;
+    margin-left: 20px;
+}
+
+textarea{
+    width: 250px;
+    margin-left: 20px;
+}
+
+fieldset{
+    border: none;
+    padding-bottom: 20px;
+    
+}
+
+.labelone{
+    margin-top: 10px;
+    
+}
+
+.btn{
+    width: 125px;
+}
+
+
+
 
 @font-face{
     font: HeaderFont;
