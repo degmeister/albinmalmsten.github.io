@@ -90,6 +90,7 @@ label{
 input{
     width: 250px;
     margin-left: 20px;
+    margin-top: 10px; 
 }
 
 textarea{
@@ -112,6 +113,9 @@ fieldset{
     width: 125px;
 }
 
+p{
+    margin: 10px;
+}
 
 
 
