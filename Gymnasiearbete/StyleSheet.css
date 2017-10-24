@@ -12,6 +12,7 @@
 body {
     background-color: #A7D7FF; /*HIMMELSBLÅ*/
     font-family: 'RegularFont';
+        margin: 0;
 }
 #storbox{
     /*background-color: #06F; /*BLÅ*/
