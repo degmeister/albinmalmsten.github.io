@@ -13,7 +13,7 @@
             </header>
             <nav class="searchbar">
                 <input type="text" id="search" placeholder="Sök" style="margin-right: 20px; margin: 10px">
-                <input type="button" value="Sök">
+                <input type="button" class="btn" value="Sök" style="margin-bottom: 1%;">
             </nav>
 
                 <article>
@@ -23,23 +23,24 @@
                                 <td>
                                     <input type='text' name='em' placeholder='E-post' onfocus='this.placeholder = ''' onblur='this.placeholder='E-post''>
                                     <input type='password' name='pword' placeholder='Lösenord' onfocus='this.placeholder = ''' onblur='this.placeholder='Lösenord''>
-                                    <input type='submit' value='Logga in' class='button' id='Login' name='loginbtn'/>
-                                    <input type='submit' value='Registera dig här' class='button' id='Reg' name='regbtn'/>                                                        
+                                    <input type='submit' value='Logga in' class='btn' id='Login' name='loginbtn'/>
+                                    <input type='submit' value='Registera dig här' class='btn' id='Reg' name='regbtn'/>                                                        
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <a id='ForgotPassword' href='recoveraccount.php'>Glömt ditt lösenord?</a>                    
+                                    <a id='ForgotPassword' href='recoveraccount.php' style="margin-left: 28%;">Glömt ditt lösenord?</a>                    
                                 </td>
                             </tr>   
                             <tr>
                                 <td>
-                                    <input class="iptftr" type="submit" value="Har du några frågor? Klicka här!" name="questions" onClick="window.location.href='contact.html'"></input>   
+                                    <input class="btn" type="submit" value="Har du några frågor? Klicka här!" name="questions" onClick="window.location.href='contact.html'"></input>   
                                 </td>
                             </tr>
                         </table>
-                        <img src="background.png" alt="bakgrund" style="width: 400px; height: 400px; margin-left: 90%; padding-top: 2%;">
-                    </form>                  
+                        
+                    </form>       
+                    <img src="background.png" alt="bakgrund" style="width: 400px; float: left;">           
             </article>  
             <footer>
                 <ul>
