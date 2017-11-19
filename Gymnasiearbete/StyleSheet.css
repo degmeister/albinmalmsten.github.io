@@ -10,12 +10,12 @@
 
 
 body {
-    background-color: #A7D7FF; /*HIMMELSBLÅ*/
+    background-color: #A7D7FF; /*HIMMELSBLÃ…*/
     font-family: 'RegularFont';
     margin: 0;
 }
 #storbox{
-    /*background-color: #06F; /*BLÅ*/
+    /*background-color: #06F; /*BLÃ…*/
     width: 80%;
     height: 100%;
     position: absolute;
@@ -23,7 +23,7 @@ body {
 }
 
 header{
-    background-color: #0092D0; /*EMBLEMBLÅ*/
+    background-color: #0092D0; /*EMBLEMBLÃ…*/
     width: 100%;
     height: 10%;
     font-family: 'HeaderFont';
@@ -41,7 +41,8 @@ footer{
 article{
     background-color: #FFF; /*VIT*/
     width: 100%;
-    height: 80%;
+    height: fit-content;
+    min-height: 80%;
     float: left;
 }
 table{
@@ -50,15 +51,14 @@ table{
 }
 
 
-ul{
+footer ul{
     list-style: none;
-    background-color: #444; /*GRÅ*/
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
-li{
+footer li{
     line-height: 40px;
     height: 100%;
     width: 30%;
@@ -67,9 +67,10 @@ li{
     color: white;
 }
 form{
-    width: 50%;
+    width: 40%;
     margin-left: 3%;
     margin-top: 3%;
+    float: left;
 }
 table{
     
@@ -90,7 +91,8 @@ label{
 input{
     width: 250px;
     margin-left: 20px;
-    margin-top: 10px; 
+    margin-top: 10px;
+    
 }
 
 textarea{
@@ -108,22 +110,122 @@ fieldset{
     margin-top: 10px;
     
 }
+.btn {
+  background: #A7D7FF;
+  background-image: -webkit-linear-gradient(top, #A7D7FF, #0092D0);
+  background-image: -moz-linear-gradient(top, #A7D7FF, #0092D0);
+  background-image: -ms-linear-gradient(top, #A7D7FF, #0092D0);
+  background-image: -o-linear-gradient(top, #A7D7FF, #0092D0);
+  background-image: linear-gradient(to bottom, #A7D7FF, #0092D0);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  white-space: normal;
+}
 
-.btn{
-    width: 125px;
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 p{
     margin: 10px;
 }
 
+.treeview ul, .treeview li
+{
+    padding: 0;
+    list-style: none;
+}
+.first, .links
+{
+    margin-left: 5%;
+}
+.first label
+{
+    margin-left: 0;
+}
+.second
+{
+    margin-left: 6%;
+}
+.treeview input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+}
+.treeview a
+{
+    color: #00f;
+    text-decoration: none;
+}
+.treeview a:hover
+{
+    text-decoration: underline;
+}
+.treeview input[type="checkbox"] ~ ul
+{
+    display: none;
+}
+.treeview input[type="checkbox"]:disabled + label
+{
+    cursor: default;
+    opacity: .6;
+}
+.treeview input[type="checkbox"]:checked:not(:disabled) ~ ul
+{
+    display: block;
+}
+.treeview label, .treeview a, .treeview label::before
+{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.treeview label
+{
+    background-position: 18px 0;
+}
+.treeview label::before
+{
+    content: "";
+    width: 16px;
+    margin: 0 22px 0 0;
+    vertical-align: middle;
+    background-position: 0 -32px;
+}
+.treeview input[type="checkbox"]:checked + label::before
+{
+    background-position: 0 -16px;
+}
+.item:hover {
+    cursor: pointer;
+}
+.treeviewul {
+    border: 1px solid #000;
+}
+span {
+    margin-right: 20px;
+}
+
+
 
 .sport {
     background-color: #0092D0;
     width: 25%;
-    height: 50%;
-    margin-left: 10px;
-    margin-top: 15px;
+   
     float: left;
     text-align: center;
     color: #FFF;
@@ -134,10 +236,38 @@ p{
     /*box-shadow: 15px 15px 10px #888888;*/
 }
 
+#sport1{
+    background-color: #0092D0; /*Namn på lista*/
+    margin-left: 70px;
+    margin-top: 15px;
+    
+}
+
+#sport2{
+    background-color: #0092D0; /*Punkter*/
+    margin-top: 250px;
+    margin-left: -270px;
+    
+}
+
+#sport3{
+    background-color: #0092D0; /*Konto*/
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+
+
 .searchbar{
     color: #FFF;
     border: 1px solid #000;
 }
+nav img {
+    background-color: #FFF;
+}f
+
+
+
 
 
 
