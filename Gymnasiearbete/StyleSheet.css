@@ -265,6 +265,17 @@ span {
 nav img {
     background-color: #FFF;
 }
+bakground {
+bakground-image:url(bakground.png);
+}
+@media screen and (max-width: 667px){
+ bakground{
+ height:667px;
+ width:375px;
+ background-image:url(background.png);
+  }
+} 
+
 
 
 
