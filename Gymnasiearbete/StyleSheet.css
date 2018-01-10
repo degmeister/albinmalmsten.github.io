@@ -265,7 +265,14 @@ span {
 nav img {
     background-color: #FFF;
 }
-
+@media  screen and (max-width: 640px){
+  article
+  { 
+    width:300px;
+    height:auto;
+    position:fixed;
+  }
+}
 
 
 
