@@ -267,4 +267,13 @@ nav img {
 }
 
 
+@media  screen and (max-width: 667px){
+    article 
+    {
+        width: 640px; 
+        height: 375px;
+        float: left; 
+    }
+}
+
 
